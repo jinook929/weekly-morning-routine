@@ -1,0 +1,13 @@
+{
+  "name": "weekly-morning-routine",
+  "version": "1.0.0",
+  "description": "Weekly morning alarm app - plays local music files at scheduled times",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-cron": "^3.0.3"
+  }
+}
